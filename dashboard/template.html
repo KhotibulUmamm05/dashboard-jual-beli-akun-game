@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<meta name="description" content="__DESC__">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c5cab'/%3E%3Cpath d='M8 22V14M14 22V9M20 22v-6M26 22V12' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+__CSS__
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" aria-label="Navigasi halaman">
+    <div class="brand">
+      <div class="co" id="brand-co"></div>
+      <div class="sub">Dashboard analitik jual beli akun game</div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot">
+      <button type="button" class="theme-btn" id="theme-btn">Ganti tema terang/gelap</button>
+      <span>Free Fire · Mobile Legends · Roblox</span>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <div class="filters" role="group" aria-label="Filter global">
+        <button type="button" class="menu-btn" id="menu-btn" aria-label="Buka menu">☰ Menu</button>
+        <div class="fgroup"><label for="f-preset">Periode</label><select id="f-preset" class="select"></select></div>
+        <div class="fgroup" id="f-custom" hidden>
+          <select id="f-from" class="select" aria-label="Dari bulan"></select><span class="flabel">s.d.</span><select id="f-to" class="select" aria-label="Sampai bulan"></select>
+        </div>
+        <div class="fgroup"><span class="flabel">Game</span><div class="chips" id="f-games"></div></div>
+        <span class="fnote" id="f-note"></span>
+      </div>
+    </header>
+    <main id="page" class="page"></main>
+  </div>
+</div>
+<script type="application/json" id="dash-data">__DATA__</script>
+<script>
+__JS__
+</script>
+</body>
+</html>

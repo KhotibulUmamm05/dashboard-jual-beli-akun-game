@@ -1,0 +1,19 @@
+# data mentah & data internal (berisi data pribadi / angka asli) tidak boleh di-commit
+data/raw/
+data/internal/
+output/internal/
+*.xlsx
+*.xls
+!data/public/*.xlsx
+
+# lain-lain
+__pycache__/
+*.pyc
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+notes/
+
+# konfigurasi berisi nama asli
+config.local.json

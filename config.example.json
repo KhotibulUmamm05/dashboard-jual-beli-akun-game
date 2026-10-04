@@ -1,0 +1,11 @@
+{
+  "company_name": "Nama perusahaan (hanya dipakai di versi internal)",
+  "company_short": "Nama singkat",
+  "admins": [
+    "nama admin dalam huruf kecil, sesuai yang ditulis di kolom Notes"
+  ],
+  "admin_aliases": {
+    "ejaan lain": "nama baku"
+  },
+  "partner_code": "kode mitra re-seller yang ditulis di kolom Kode Akun"
+}
