@@ -378,7 +378,7 @@ function initUI() {
   const nav = document.getElementById("nav");
   PAGES.forEach(([id, title], i) => {
     const b = h("button", { type: "button", "data-id": id }, h("span", { class: "no" }, String(i + 1)), title);
-    b.addEventListener("click", () => { ST.page = id; history.replaceState(null, "", "#" + id); document.querySelector(".sidebar").classList.remove("open"); render(false); });
+    b.addEventListener("click", () => { ST.page = id; try { history.replaceState(null, "", "#" + id); } catch (e) {} document.querySelector(".sidebar").classList.remove("open"); render(false); });
     nav.appendChild(b);
   });
   // filter periode
